@@ -1,0 +1,6 @@
+a="123"
+b=[int(i)for i in a]
+sum=0
+for i in b:
+    sum=sum*10+i
+print(sum)
