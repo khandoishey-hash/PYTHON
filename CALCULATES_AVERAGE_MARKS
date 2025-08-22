@@ -1,0 +1,8 @@
+std=["ram","sam","dan","stn","kan"]
+mk=[[78,84,73],[26,58,58],[49,98,90],[59,90,98],[90,96,85]]
+per=[]
+for i in mk:
+    b=sum(i)//3
+    per.append(b)
+for i in range(5):
+    print("{}.{}:{}".format(i+1,std[i],per[i]))
